@@ -1,0 +1,38 @@
+.nav {
+  &__menu {
+    margin: 0;
+    padding: 0;
+  }
+  &__menu-item {
+    list-style-type: none;
+    font-size: 16px;
+    color: #3a3a3a;
+  }
+
+  &__menu-link {
+    display: block;
+    padding: 13px 15px;
+    line-height: 20px;
+    color: #3a3a3a;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.5s;
+    font-family: "Roboto", sans-serif;
+
+    &:hover {
+      background-color: rgba(211, 211, 211, 0.3);
+    }
+  }
+}
+
+.services-link {
+  position: relative;
+  &::after {
+    content: "\25BA";
+    position: absolute;
+    right: 80px;
+    font-size: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

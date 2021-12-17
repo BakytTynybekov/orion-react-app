@@ -1,0 +1,11 @@
+.location {
+  font-size: 12px;
+  color: #333;
+  margin-bottom: 15px;
+  & p {
+    margin: 5px;
+  }
+  &-icon {
+    margin-right: 5px;
+  }
+}
